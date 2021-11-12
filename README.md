@@ -23,9 +23,23 @@
 3. `pip install -r requirements.txt` 필요한 라이브러리를 설치합니다 (tensorflow 반드시 2.7.0 또는 2.6.2 버전 사용)
 4. `transformer_model.py` 파일을 실행시켜 잘 작동하는지 확인합니다.
 5. `telegram_chatbot.py` 를 실행합니다.
-    - `telegram_chatbot.py` 의 `token`, `id`  직접 발급받아 사용하여야 합니다.  아래 링크를 참조해주세요
+    - `telegram_chatbot.py` 의 `token`, `id` 는 직접 발급받아 사용하여야 합니다.  아래 방법을 참고해주세요
     
-    [`발급방법`](https://gabrielkim.tistory.com/entry/Telegram-Bot-Token-%EB%B0%8F-Chat-Id-%EC%96%BB%EA%B8%B0)  
+    __발급방법__
+    
+    https://web.telegram.org 접속 후 `@BotFather` 검색 -> 클릭 후 `Start` 버튼으로 대화 시작
+    
+    대화창에 `/newbot` 명령어를 입력하여 새로운 채팅 봇 생성
+    
+    채팅봇의 name 과 username 을 입력 => 설정 완료 시 Token 발급됨
+    
+    검색 창에 채팅봇의 이름 검색 후 대화 시작 => 아무 메시지 입력
+    
+    브라우저의 주소창에 https://api.telegram.org/bot[YourToken]/getUpdates 입력 후 접속 => `"from":{"id":YourID,` 부분에서 본인 ID 확인
+
+
+        
+    
       
       
 ### _참고자료_
