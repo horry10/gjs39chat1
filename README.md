@@ -23,7 +23,7 @@
 3. `pip install -r requirements.txt` 필요한 라이브러리를 설치합니다 (tensorflow 반드시 2.7.0 또는 2.6.2 버전 사용)
 4. `transformer_model.py` 파일을 실행시켜 잘 작동하는지 확인합니다.
 5. `telegram_chatbot.py` 를 실행합니다.
-    - `telegram_chatbot.py` 의 `token`, `id` 입력부분은 직접 발급받아 사용하여야 합니다.  아래 링크를 참조해주세요
+    - `telegram_chatbot.py` 의 `token`, `id`  직접 발급받아 사용하여야 합니다.  아래 링크를 참조해주세요
     
     [`발급방법`](https://gabrielkim.tistory.com/entry/Telegram-Bot-Token-%EB%B0%8F-Chat-Id-%EC%96%BB%EA%B8%B0)  
       
