@@ -27,7 +27,7 @@
     
     __발급방법__
     
-    https://web.telegram.org 접속 후 `@BotFather` 검색 -> 클릭 후 `Start` 버튼으로 대화 시작
+    https://web.telegram.org 접속 후 `@BotFather` 검색 => 클릭 후 `Start` 버튼으로 대화 시작
     
     대화창에 `/newbot` 명령어를 입력하여 새로운 채팅 봇 생성
     
